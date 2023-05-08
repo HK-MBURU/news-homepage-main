@@ -123,3 +123,46 @@ nav a:last-child{
     color: hsl(233, 8%, 79%);
     font-size: 14px;
 }
+.section2{
+    display: flex;
+    justify-content: space-between;
+}
+.popsec{
+    display: flex;
+    margin-right: 50px;
+}
+.popsec:last-child{
+    margin: 0;
+}
+.popsec img{
+    height: 110px;
+    margin-right: 15px;
+}
+.popsec .content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.popsec span{
+    display: inline-block;
+    font-size: 25px;
+    font-weight: 700;
+    color: hsl(233, 8%, 79%);
+    
+}
+.popsec h3{
+    font-size: 14px;
+    margin: 10px 0;
+    
+}
+.popsec h3:hover{
+    cursor: pointer;
+    color: hsl(5, 85%, 63%);
+    
+}
+.popsec .content p{
+    font-size: 14px;
+    color: hsl(236, 13%, 42%);
+    line-height: 1.5;
+    
+}
